@@ -14,8 +14,10 @@
 					  <artifactId>maven-compiler-plugin</artifactId>
 					  <version>3.1</version>
 					  <executions>
-						  <id>default-compile</id>
-						  <phase>none</phase>
+						  <execution>
+							  <id>default-compile</id>
+							  <phase>none</phase>
+						  </execution>
 					  </executions>
 				  </plugin>
 			  </plugins>
@@ -30,8 +32,10 @@
 					  <artifactId>maven-compiler-plugin</artifactId>
 					  <version>3.1</version>
 					  <executions>
-						  <id>default-compile</id>
-						  <phase>none</phase>
+						  <execution>
+							  <id>default-compile</id>
+							  <phase>none</phase>
+						  </execution>
 					  </executions>
 				  </plugin>
 				  <plugin>
@@ -39,8 +43,10 @@
 					  <artifactId>maven-compiler-plugin</artifactId>
 					  <version>3.1</version>
 					  <executions>
-						  <id>default-testCompile</id>
-						  <phase>none</phase>
+						  <execution>
+							  <id>default-testCcompile</id>
+							  <phase>none</phase>
+						  </execution>
 					  </executions>
 				  </plugin>
 				  <plugin>
@@ -48,8 +54,10 @@
 					  <artifactId>maven-surefire-plugin</artifactId>
 					  <version>3.1</version>
 					  <executions>
-						  <id>default-test</id>
-						  <phase>none</phase>
+						  <execution>
+							  <id>default-test</id>
+							  <phase>none</phase>
+						  </execution>
 					  </executions>
 				  </plugin>
 			  </plugins>
@@ -64,8 +72,10 @@
 					  <artifactId>maven-compiler-plugin</artifactId>
 					  <version>3.1</version>
 					  <executions>
-						  <id>default-compile</id>
-						  <phase>none</phase>
+						  <execution>
+							  <id>default-compile</id>
+							  <phase>none</phase>
+						  </execution>
 					  </executions>
 				  </plugin>
 				  <plugin>
@@ -73,8 +83,10 @@
 					  <artifactId>maven-compiler-plugin</artifactId>
 					  <version>3.1</version>
 					  <executions>
-						  <id>default-testCompile</id>
-						  <phase>none</phase>
+						  <execution>
+							  <id>default-testCompile</id>
+							  <phase>none</phase>
+						  </execution>
 					  </executions>
 				  </plugin>
 				  <plugin>
@@ -82,8 +94,10 @@
 					  <artifactId>maven-surefire-plugin</artifactId>
 					  <version>3.1</version>
 					  <executions>
-						  <id>default-test</id>
-						  <phase>none</phase>
+						  <execution>
+							  <id>default-test</id>
+							  <phase>none</phase>
+						  </execution>
 					  </executions>
 				  </plugin>
 				  <plugin>
@@ -91,8 +105,10 @@
 					  <artifactId>maven-jar-plugin</artifactId>
 					  <version>2.4</version>
 					  <executions>
-						  <id>default-jar</id>
-						  <phase>none</phase>
+						  <execution>
+							  <id>default-jar</id>
+							  <phase>none</phase>
+						  </execution>
 					  </executions>
 				  </plugin>
 			  </plugins>
@@ -107,8 +123,10 @@
 					  <artifactId>maven-compiler-plugin</artifactId>
 					  <version>3.1</version>
 					  <executions>
-						  <id>default-compile</id>
-						  <phase>none</phase>
+						  <execution>
+							  <id>default-compile</id>
+							  <phase>none</phase>
+						  </execution>
 					  </executions>
 				  </plugin>
 				  <plugin>
@@ -116,8 +134,10 @@
 					  <artifactId>maven-compiler-plugin</artifactId>
 					  <version>3.1</version>
 					  <executions>
-						  <id>default-testCompile</id>
-						  <phase>none</phase>
+						  <execution>
+							  <id>default-testCompile</id>
+							  <phase>none</phase>
+						  </execution>
 					  </executions>
 				  </plugin>
 				  <plugin>
@@ -125,8 +145,10 @@
 					  <artifactId>maven-surefire-plugin</artifactId>
 					  <version>3.1</version>
 					  <executions>
-						  <id>default-test</id>
-						  <phase>none</phase>
+						  <execution>
+							  <id>default-test</id>
+							  <phase>none</phase>
+						  </execution>
 					  </executions>
 				  </plugin>
 				  <plugin>
@@ -134,8 +156,10 @@
 					  <artifactId>maven-jar-plugin</artifactId>
 					  <version>2.4</version>
 					  <executions>
-						  <id>default-jar</id>
-						  <phase>none</phase>
+						  <execution>
+							  <id>default-jar</id>
+							  <phase>none</phase>
+						  </execution>
 					  </executions>
 				  </plugin>
 				  <plugin>
@@ -143,8 +167,10 @@
 					  <artifactId>maven-install-plugin</artifactId>
 					  <version>2.4</version>
 					  <executions>
-						  <id>default-install</id>
-						  <phase>none</phase>
+						  <execution>
+							  <id>default-install</id>
+							  <phase>none</phase>
+						  </execution>
 					  </executions>
 				  </plugin>
 			  </plugins>
